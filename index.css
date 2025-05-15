@@ -9,7 +9,7 @@ hr {
     margin-top: 40px;
 }
 
-#randomPassword {
+.randomPassword {
     color: #10B981;
     
 }
@@ -26,14 +26,27 @@ hr {
 }
 
 
-
-
 button {
     background-color: #10B981;
     color: white;
     border-color: #10B981;
-    padding: 10px;
-    border-radius: 9%;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    
+}
+.password {
+    display: flex;
+    justify-content: space-around;
+
 }
 
-
+#passwordOutput1, #passwordOutput2 {
+    background-color: #273549;
+    color: #10B981;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    
+}
