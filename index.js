@@ -15,6 +15,12 @@ function generateRandomPassword(length) {
 }
 
 function passwordGenerator() {
-  passwordOutput1.textContent = generateRandomPassword(10); 
+  passwordOutput1.textContent = generateRandomPassword(10); // You can change the length as needed
   passwordOutput2.textContent = generateRandomPassword(10);
 }
+
+
+function toggleTheme() {
+    document.body.classList.toggle("dark-mode");
+}
+
